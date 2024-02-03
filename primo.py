@@ -5,6 +5,6 @@ for i in range(2,n):
         primo=False
         break
 if primo:
-    print("Es primo")
+    print(n, "Es primo")
 else:
-    print("No es primo")
+    print(n, "No es primo")
