@@ -10,7 +10,7 @@ print("Hola, ", username)
 
 # Declaramos nuestra variable edad apra obtener su edad
 edad = (date.today() - date(useryear, usermonth, userbirthday)).days // 365
-edadd = (date.today() - edad * 12
+edadd = edad * 12
 edadm = edad * 12
 print ("Tu edad es: ", edad, " años")
 print ("Han pasado: ", edadd, " días")
