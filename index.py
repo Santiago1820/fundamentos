@@ -11,7 +11,7 @@ print("Hola,", username)
 # Declaramos nuestra variable edad apra obtener su edad
 hoy = (date.today())
 edad = (hoy - date(useryear, usermonth, userbirthday)).days // 365
-edadm = hoy.month
+edadm = (12-usermonth)+hoy.month
 edadd = hoy.day - 1
 print ("Han pasado:", edad, "años", edadm, "meses", "y", edadd, "días desde que nacise hasta hoy: ", f"{edadd}/{edadm}/{hoy.year}")
 
