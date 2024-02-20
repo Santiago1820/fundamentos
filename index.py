@@ -10,10 +10,10 @@ print("Hola,", username)
 
 # Declaramos nuestra variable edad apra obtener su edad
 hoy = (date.today())
-edad = (hoy - date(useryear, usermonth, userbirthday)).days // 365
+edad = (hoy - date(useryear, usermonth, userbirthday)).days // 365.27
+edadd = (date(hoy))
 edadm = (12-usermonth)+hoy.month
-edadd = hoy.day - 1
-print ("Han pasado:", edad, "años", edadm, "meses", "y", edadd, "días desde que nacise hasta hoy: ", f"{edadd}/{edadm}/{hoy.year}")
+print ("Han pasado:", int(edad), "años", edadm, "meses", "y", edadd, "días desde que nacise hasta hoy: ", f"{hoy.day}/{hoy.month}/{hoy.year}")
 
 #Traer el signo zoodiacal
 print ("Tu signo es: ", zood.sigzood(userbirthday, usermonth))
