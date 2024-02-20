@@ -24,3 +24,6 @@ while True:
     else:
         final()
         break 
+
+test = input("Escribe algo: ")
+print (test)
